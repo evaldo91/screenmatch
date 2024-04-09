@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.calculos;
 
-public class FiltroRecomedacao {
+public class FiltroRecomendacao {
 
     public void filtra (Classificavel classificavel){
         if (classificavel.getClassificacao() >= 4) {

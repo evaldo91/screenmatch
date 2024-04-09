@@ -8,11 +8,16 @@ public class Titulo {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
     public String getNome() {
         return nome;
     }
 
-    public int getAnoDeLancamento(int i) {
+    public int getAnoDeLancamento() {
         return anoDeLancamento;
     }
 
@@ -22,6 +27,10 @@ public class Titulo {
 
     public int getDuracaoEmMinutos() {
         return duracaoEmMinutos;
+    }
+
+    public void setSomaDasAvaliacoes(double somaDasAvaliacoes) {
+        this.somaDasAvaliacoes = somaDasAvaliacoes;
     }
 
     public int getTotalDeAvaliacoes() {
